@@ -10,12 +10,12 @@ N/A
 
 ## Installation Instructions
 
-N/A
+The Portfolio is at [GitHub Pages](https://silvag6271.github.io/AG-Portfolio/)
 
 ## Usage
 Page allows me to show any projects I am working on or completed. Anyone can check out things I have done.
 
-![Photo of portfolio page for Aaron Garcia](AG-Portfolio\assets\images\AG-Portfolio.jpeg)
+![Photo of portfolio page for Aaron Garcia](assets/images/AG-Portfolio.jpeg)
 
 ## Credit
 
