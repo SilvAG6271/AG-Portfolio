@@ -36,6 +36,8 @@ body {
     
 }
 
+
+
 .header nav {
     font-size: 1.5dvw;
     float: right;
@@ -44,11 +46,13 @@ body {
 }
 
 .header nav button {
-background-color: blueviolet;
+background-color: rgb(18, 43, 18);
 border-radius: 25%;
-border:.5em;
+border: .3em;
 border-style: ridge;
 }
+
+
 
 .me-stuff:active {
    background-color: rgb(208, 190, 26);
@@ -148,9 +152,15 @@ border-style:groove;
 border-color: rgb(49, 19, 49);
 }
 
+#DnD {
+    color: white;
+}
+
 .bp img {
     width: 41dvw;
     height: 35dvh;
+    border-color: rgb(185, 185, 34);
+    border-style: groove;
 }
 
 /*add hover attribute so picture that is hovered over grows a little bigger than the others*/
