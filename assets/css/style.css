@@ -175,6 +175,15 @@ width: 50%;
    border-style: groove;
 }
 
+#Travel {
+    color: black
+}
+
+.budget img{
+    border-color: aquamarine;
+    border-style: double;
+}
+
 /*add hover attribute so picture that is hovered over grows a little bigger than the others*/
 .bp:hover {
     transform:scale(1.4);
