@@ -5,8 +5,16 @@
 
 }
 
+html {
+    background-image: url("../images/blue.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+
 body {
-    background-color: rgb(173, 200, 235);
+    /* background-color: rgb(173, 200, 235); */
     font-family:Georgia, 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Tahoma, Geneva, Verdana, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
     
@@ -136,31 +144,35 @@ font-size: 3dvh;
  flex-wrap: wrap;
  justify-content:center;
  padding-top: 8em;
- gap:8em;
+ gap: 5em;
  margin-left: 15%;
- margin-right: 15%
+ margin-right: 15%;
  
-
 }
 
 
 .container img {
-width: 25dvw;
-height: 30dvh;
+ display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+height: 30dvh; 
 border: .5em;
 border-style:groove;
 border-color: rgb(49, 19, 49);
+width: 50%;
 }
+
+
 
 #DnD {
     color: white;
 }
 
 .bp img {
-    width: 41dvw;
-    height: 35dvh;
-    border-color: rgb(185, 185, 34);
-    border-style: groove;
+   width: 41dvw;
+   height: 35dvh;
+   border-color: rgb(185, 185, 34);
+   border-style: groove;
 }
 
 /*add hover attribute so picture that is hovered over grows a little bigger than the others*/
@@ -234,10 +246,12 @@ h4 {
 @media screen and (max-width: 768px){
     header, main {
         flex-direction: column;
-
+    
     }
 
-  
+    .info li{
+        font-size: 10px;
+    }
     
 
 }
